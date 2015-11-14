@@ -1,0 +1,25 @@
+{
+  "name": "boilerplate-requirejs-singlefile-optimizer",
+  "version": "0.0.1",
+  "description": "\"Scaffolding for setting up sample directory structure to be optimized using r.js optimizer\"",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "bower install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/requirejs/example-multipage.git"
+  },
+  "author": "vikikamath",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/requirejs/example-multipage/issues"
+  },
+  "homepage": "https://github.com/requirejs/example-multipage",
+  "devDependencies": {
+    "r.js": "^1.0.3",
+    "bower": "^1.6.5",
+    "requirejs": "^2.1.20",
+    "serve": "^1.4.0"
+  }
+}
