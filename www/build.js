@@ -1,17 +1,17 @@
-{
-     baseUrl: "js",
+module.exports = {
+     baseUrl: "www/js",
 
      // entry point with requirejs.config() usually
-     mainConfigFile: 'js/common.js',
+     mainConfigFile: 'www/js/common.js',
 
-     // start with almond
+     // bundle almond instead of requirejs
      name: "../../bower_components/almond/almond",
 
      // output to directory/file to be created
-     out: "../dist/main.js",
+     out: "../dist/bundle.min.js",
 
      // default uglify, uncomment to not mangle
-     // optimize: "none",
+     optimize: "uglify2",
 
 
      // paths relative to baseUrl
@@ -25,4 +25,4 @@
         "page",
         "app/main"
     ]
- }
+}
